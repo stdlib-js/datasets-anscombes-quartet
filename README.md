@@ -50,7 +50,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import data from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-anscombes-quartet@deno/mod.js';
+import data from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-anscombes-quartet@v0.1.0-deno/mod.js';
 ```
 
 #### data()
@@ -130,7 +130,7 @@ var d = data();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import data from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-anscombes-quartet@deno/mod.js';
+import data from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-anscombes-quartet@v0.1.0-deno/mod.js';
 
 console.log( data() );
 ```
