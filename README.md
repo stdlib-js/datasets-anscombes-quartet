@@ -183,16 +183,16 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-anscombes-quartet-cli.svg
 [npm-url]: https://npmjs.org/package/@stdlib/datasets-anscombes-quartet-cli
 
-[test-image]: https://github.com/stdlib-js/datasets-anscombes-quartet@v0.1.0/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/datasets-anscombes-quartet@v0.1.0/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/datasets-anscombes-quartet/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/datasets-anscombes-quartet/actions/workflows/test.yml?query=branch:v0.1.0
 
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/datasets-anscombes-quartet@v0.1.0/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/datasets-anscombes-quartet@v0.1.0?branch=main
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/datasets-anscombes-quartet/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/datasets-anscombes-quartet?branch=main
 
 <!--
 
-[dependencies-image]: https://img.shields.io/david/stdlib-js/datasets-anscombes-quartet@v0.1.0.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/datasets-anscombes-quartet@v0.1.0/main
+[dependencies-image]: https://img.shields.io/david/stdlib-js/datasets-anscombes-quartet.svg
+[dependencies-url]: https://david-dm.org/stdlib-js/datasets-anscombes-quartet/main
 
 -->
 
@@ -203,17 +203,17 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
-[cli-section]: https://github.com/stdlib-js/datasets-anscombes-quartet@v0.1.0#cli
-[cli-url]: https://github.com/stdlib-js/datasets-anscombes-quartet@v0.1.0/tree/cli
-[@stdlib/datasets-anscombes-quartet]: https://github.com/stdlib-js/datasets-anscombes-quartet@v0.1.0/tree/main
+[cli-section]: https://github.com/stdlib-js/datasets-anscombes-quartet#cli
+[cli-url]: https://github.com/stdlib-js/datasets-anscombes-quartet/tree/cli
+[@stdlib/datasets-anscombes-quartet]: https://github.com/stdlib-js/datasets-anscombes-quartet/tree/main
 
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
-[deno-url]: https://github.com/stdlib-js/datasets-anscombes-quartet@v0.1.0/tree/deno
-[umd-url]: https://github.com/stdlib-js/datasets-anscombes-quartet@v0.1.0/tree/umd
-[esm-url]: https://github.com/stdlib-js/datasets-anscombes-quartet@v0.1.0/tree/esm
-[branches-url]: https://github.com/stdlib-js/datasets-anscombes-quartet@v0.1.0/blob/main/branches.md
+[deno-url]: https://github.com/stdlib-js/datasets-anscombes-quartet/tree/deno
+[umd-url]: https://github.com/stdlib-js/datasets-anscombes-quartet/tree/umd
+[esm-url]: https://github.com/stdlib-js/datasets-anscombes-quartet/tree/esm
+[branches-url]: https://github.com/stdlib-js/datasets-anscombes-quartet/blob/main/branches.md
 
 [pddl-1.0]: http://opendatacommons.org/licenses/pddl/1.0/
 
