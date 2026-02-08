@@ -43,17 +43,126 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
 
+```bash
+npm install @stdlib/datasets-anscombes-quartet
+```
 
+Alternatively,
 
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+-   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
 
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
 
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
 
+</section>
+
+<section class="usage">
+
+## Usage
+
+```javascript
+var data = require( '@stdlib/datasets-anscombes-quartet' );
+```
+
+#### data()
+
+Returns [Anscombe's quartet][anscombes-quartet], which is comprised of `4` individual datasets, where each individual dataset is an `array` of `[x,y]` tuples.
+
+```javascript
+var d = data();
+/* returns
+    [
+        [
+            [ 10, 8.04 ],
+            [ 8, 6.95 ],
+            [ 13, 7.58 ],
+            [ 9, 8.81 ],
+            [ 11, 8.33 ],
+            [ 14, 9.96 ],
+            [ 6, 7.24 ],
+            [ 4, 4.26 ],
+            [ 12, 10.84 ],
+            [ 7, 4.82 ],
+            [ 5, 5.68 ]
+        ],
+        [
+            [ 10, 9.14 ],
+            [ 8, 8.14 ],
+            [ 13, 8.74 ],
+            [ 9, 8.77 ],
+            [ 11, 9.26 ],
+            [ 14, 8.1 ],
+            [ 6, 6.13 ],
+            [ 4, 3.1 ],
+            [ 12, 9.13 ],
+            [ 7, 7.26 ],
+            [ 5, 4.74 ]
+        ],
+        [
+            [ 10, 7.46 ],
+            [ 8, 6.77 ],
+            [ 13, 12.74 ],
+            [ 9, 7.11 ],
+            [ 11, 7.81 ],
+            [ 14, 8.84 ],
+            [ 6, 6.08 ],
+            [ 4, 5.39 ],
+            [ 12, 8.15 ],
+            [ 7, 6.42 ],
+            [ 5, 5.73 ]
+        ],
+        [
+            [ 8, 6.58 ],
+            [ 8, 5.76 ],
+            [ 8, 7.71 ],
+            [ 8, 8.84 ],
+            [ 8, 8.47 ],
+            [ 8, 7.04 ],
+            [ 8, 5.25 ],
+            [ 19, 12.5 ],
+            [ 8, 5.56 ],
+            [ 8, 7.91 ],
+            [ 8, 6.89 ]
+        ]
+    ]
+*/
+```
+
+</section>
+
+<!-- /.usage -->
+
+<section class="examples">
+
+## Examples
+
+<!-- TODO: more interesting example involving stats and plotting once ndarray -->
+
+<!-- eslint no-undef: "error" -->
+
+```javascript
+var data = require( '@stdlib/datasets-anscombes-quartet' );
+
+console.log( data() );
+```
+
+</section>
+
+<!-- /.examples -->
+
+* * *
 
 <section class="cli">
 
-
+## CLI
 
 <section class="installation">
 
@@ -71,7 +180,7 @@ npm install -g @stdlib/datasets-anscombes-quartet-cli
 
 <section class="usage">
 
-## Usage
+### Usage
 
 ```text
 Usage: anscombes-quartet [options]
@@ -86,11 +195,19 @@ Options:
 
 <!-- /.usage -->
 
+<section class="notes">
 
+### Notes
+
+-   Data is written to `stdout` as comma-separated values ([CSV][csv]), where the first line is a header line.
+
+</section>
+
+<!-- /.notes -->
 
 <section class="examples">
 
-## Examples
+### Examples
 
 ```bash
 $ anscombes-quartet
@@ -140,11 +257,6 @@ The data files (databases) are licensed under an [Open Data Commons Public Domai
 
 <section class="related">
 
-## See Also
-
--   <span class="package-name">[`@stdlib/datasets-anscombes-quartet`][@stdlib/datasets-anscombes-quartet]</span><span class="delimiter">: </span><span class="description">anscombe's quartet.</span>
-
-
 </section>
 
 <!-- /.related -->
@@ -162,7 +274,7 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
-### Community
+#### Community
 
 [![Chat][chat-image]][chat-url]
 
@@ -180,11 +292,11 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-anscombes-quartet-cli.svg
-[npm-url]: https://npmjs.org/package/@stdlib/datasets-anscombes-quartet-cli
+[npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-anscombes-quartet.svg
+[npm-url]: https://npmjs.org/package/@stdlib/datasets-anscombes-quartet
 
-[test-image]: https://github.com/stdlib-js/datasets-anscombes-quartet/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/datasets-anscombes-quartet/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/datasets-anscombes-quartet/actions/workflows/test.yml/badge.svg?branch=v0.2.3
+[test-url]: https://github.com/stdlib-js/datasets-anscombes-quartet/actions/workflows/test.yml?query=branch:v0.2.3
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/datasets-anscombes-quartet/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/datasets-anscombes-quartet?branch=main
