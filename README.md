@@ -50,6 +50,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import data from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-anscombes-quartet@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-anscombes-quartet/tags). For example,
+
+```javascript
 import data from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-anscombes-quartet@v0.2.3-esm/index.mjs';
 ```
 
@@ -135,7 +140,7 @@ var d = data();
 <body>
 <script type="module">
 
-import data from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-anscombes-quartet@v0.2.3-esm/index.mjs';
+import data from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-anscombes-quartet@esm/index.mjs';
 
 console.log( data() );
 
